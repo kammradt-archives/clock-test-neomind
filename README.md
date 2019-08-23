@@ -27,4 +27,24 @@ After reading a couple of times, I came up with some ideas and questions:
 
 
 I started by thinking what matters when the objective is to calculate the angle between two points in a circle surface (clock). So, the first step was to discover both angles and I made this by using the idea expressed in the picture: <br>
-<img src="./imgs/img1.jpg" alt="Image 1" width="200"/>
+<img src="./imgs/img1.jpg" alt="Image 1" width="350"/> <br>
+
+A complete circle has 360°. So, the clock is divided into 12 equal parts, what lead us to the following conclusion: <br>
+<img src="./imgs/img2.jpg" alt="Image 2" width="350"/> <br>
+
+Now that we know the equivalence that every 1 hour = 30°, we are going to do the same to minutes, using the following logic:
+We will divide the clock into 60 parts, as one complete turn of the minutes-pointer represents a complete hour.
+So, doing 360°/60 we get 6° every minute. <br>
+<img src="./imgs/img3.jpg" alt="Image 3" width="350"/> <br>
+
+Now we are going to convert minutes into hours, and add it to the hours. (as said before on item 3), I want to consider this extra movement made by the hours-pointer. <br>
+So we have: 1:30 PM -> 1 hour + 0.5 hour = 1.5 hours `(30 minutes / 60 minutes =  0.5 hours)` <br>
+And we also adjust the hours to be in 12-format by verifying if its bigger than 12 and then converting it by reducing 12. 
+
+One of the last steps is to verify which one is the biggest, so we will reduce the smaller from it to get only the internal angle. It can be easily understood by the image: <br>
+<img src="./imgs/img4.jpg" alt="Image 4" width="350"/> <br>
+
+To finish, we are going to verify if he got the right angle (internal and smaller), or the wrong one (external and bigger) by verifying if the angle is bigger than 180, that is the biggest possible angle respecting our rule.
+If we got the bigger one, just subtracting it from a complete circle will result in the smaller one automatically.
+
+### Thanks for reading 😉 
