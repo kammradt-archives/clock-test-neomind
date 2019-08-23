@@ -48,4 +48,11 @@ One of the last steps is to verify which one is the biggest, so we will reduce t
 To finish, we are going to verify if he got the right angle (internal and smaller), or the wrong one (external and bigger) by verifying if the angle is bigger than 180, as we want to apply our rule.
 If we got the bigger one, just subtracting it from a complete circle will result in the smaller one automatically.
 
+## How I solved
+- JDK 11
+- Maven
+- JUnit 5
+- Gitmoji-cli to organize commits
+- Paper to draw the first ideas
+
 ### Thanks for reading 😉 
