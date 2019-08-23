@@ -2,9 +2,10 @@
 # Test Neomind   
 
 ### Summary  
- - [Proposed problem](www.google.com.br)  
- - [What I want to solve](www.google.com.br) 
--  [How I solved](www.google.com.br)
+ - **Proposed problem** 
+ - **What I want to solve**
+ - **How I solved**
+ - **What I used**
 
   
 ## Proposed problem
